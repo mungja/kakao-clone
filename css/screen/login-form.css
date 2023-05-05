@@ -1,0 +1,33 @@
+/* BEM형식으로 css */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    
+}
+.login-form__text{
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s ease-in-out;
+}
+.login-form::placeholder{
+    color:rgba(0, 0, 0, 0.3)
+}
+.login-form__text:focus{
+	border-color: yellow;
+}
+.login-form__btn{
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+.login-form__a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
