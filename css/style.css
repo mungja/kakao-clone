@@ -1,25 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 @import "reset.css";
 @import "status-bar.css";
-
+@import "welcome.css";
+@import "login-form.css";
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.welcome-header{
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
-.welcome-header__title{
-    margin-bottom: 40px;
-    font-size: 40px;
-    font-weight: 500;
-}
-.welcome-header__text{
-    display: flex;
-    width: 60%;
-    opacity: 0.7;
-}
-/* 화면을 키울 시 헤더 텍스트가 왼쪽 기준으로 정렬 아마 width를 60%를 줘서 60%기준 왼쪽부터 써지는것 같은데 근무 같다와서 확인 */
