@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.login-form__text:focus{
+.login-form :focus{
 	outline: none;
+}
+a{
+	color: inherit;
+	text-decoration: none;
 }
