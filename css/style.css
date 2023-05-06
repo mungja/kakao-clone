@@ -8,13 +8,18 @@
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 /* screen */
 @import "screen/variables.css";
 @import "screen/welcome.css";
 @import "screen/login-form.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+  padding: var(--horizontal-space);
 }
