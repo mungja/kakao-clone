@@ -9,12 +9,14 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/point.css";
 /* screen */
 @import "screen/variables.css";
 @import "screen/welcome.css";
 @import "screen/login-form.css";
 @import "screen/friends.css";
 @import "screen/chats.css";
+@import "screen/find.css";
 
 body {
   color: #2e363e;

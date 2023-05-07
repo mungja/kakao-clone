@@ -11,3 +11,6 @@
   font-size: 35px;
   font-weight: 600;
 }
+.screen-header__icons span {
+  position: relative;
+}
