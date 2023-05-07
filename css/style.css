@@ -18,10 +18,10 @@
 @import "screen/welcome.css";
 @import "screen/login-form.css";
 @import "screen/friends.css";
-@import "screen/chats.css";
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat.css";
 
 body {
   color: #2e363e;
